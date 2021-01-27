@@ -18,16 +18,14 @@ if (process.env.NODE_ENV === 'development') {
 // Enable CORS
 app.use(cors())
 
-// app.use(validationRoutes)
+app.use(validationRoutes)
 
 app.use(errorHandler)
 
 const PORT = process.env.PORT || 3000
 
 const server = app.listen(PORT, () => {
-	console.log(
-		`We are live on ${process.env.NODE_ENV} mode on port ${PORT}`.yellow.bold
-	)
+	console.log(`We are live on port ${PORT}`.yellow.bold)
 })
 
 // Handle unhandled promise rejections
