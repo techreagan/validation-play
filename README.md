@@ -4,12 +4,12 @@ Simple validation API
 
 ## API Documentation
 
-API documentation with examples response:
+API documentation with examples response: [API](https://documenter.getpostman.com/view/9407876/TW6xno4y)
 
 ## Routes
 
-- HTTP [GET] "/" - Dev Details
-- HTTP [POST] "/validate-rule" - Validation Rules
+- HTTP [GET] [https://tr-validation/](https://tr-validation/) - Dev Details
+- HTTP [POST] [https://tr-validation/validate-rule](https://tr-validation/validate-rule) - Validation Rules
 
 ## Installation
 
