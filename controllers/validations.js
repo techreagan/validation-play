@@ -134,7 +134,7 @@ exports.validateRule = (req, res, next) => {
 			.status(200)
 			.json(
 				validationMessage(
-					`field ${rule.field} successfully validated`,
+					`field ${rule.field} successfully validated.`,
 					'success',
 					validationResponse
 				)
@@ -145,7 +145,7 @@ exports.validateRule = (req, res, next) => {
 			.status(400)
 			.json(
 				validationMessage(
-					`field ${rule.field} failed validation`,
+					`field ${rule.field} failed validation.`,
 					'error',
 					validationResponse
 				)
