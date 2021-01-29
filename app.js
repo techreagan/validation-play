@@ -1,6 +1,6 @@
 const express = require('express')
 const colors = require('colors')
-const morgan = require('morgan')
+// const morgan = require('morgan')
 const cors = require('cors')
 
 const errorHandler = require('./middleware/error')
@@ -11,9 +11,9 @@ const app = express()
 
 app.use(express.json())
 
-if (process.env.NODE_ENV === 'development') {
-	app.use(morgan('dev'))
-}
+// if (process.env.NODE_ENV === 'development') {
+// 	app.use(morgan('dev'))
+// }
 
 // Enable CORS
 app.use(cors())

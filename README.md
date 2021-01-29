@@ -1,6 +1,10 @@
-# Rule Validation
+# Validation
 
-Simple rule-validation API
+Simple validation API
+
+## API Documentation
+
+API documentation with examples response:
 
 ## Routes
 
@@ -24,7 +28,7 @@ npm install -g nodemon
 ## Run Boilerplate
 
 ```console
-node run dev
+npm run dev
 ```
 
 ## License
