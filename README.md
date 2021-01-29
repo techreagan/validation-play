@@ -25,7 +25,7 @@ Install nodemon globally
 npm install -g nodemon
 ```
 
-## Run Boilerplate
+## Run App
 
 ```console
 npm run dev
