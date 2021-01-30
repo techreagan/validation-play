@@ -8,8 +8,8 @@ API documentation with examples response: [API](https://documenter.getpostman.co
 
 ## Routes
 
-- HTTP [GET] [https://tr-validation.herokuapp.com/](https://tr-validation/) - Dev Details
-- HTTP [POST] [https://tr-validation.herokuapp.com/validate-rule](https://tr-validation/validate-rule) - Validation Rules
+- HTTP [GET] [https://tr-validation.herokuapp.com/](https://tr-validation.herokuapp.com/) - Dev Details
+- HTTP [POST] [https://tr-validation.herokuapp.com/validate-rule](https://tr-validation.herokuapp.com/validate-rule) - Validation Rules
 
 ## Installation
 
